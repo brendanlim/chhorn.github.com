@@ -77,3 +77,55 @@ book > p > a {
 	color: #888;
 	font-weight: 400;
 }
+
+/* 
+	RESPONSIVE STYLING 
+ */
+
+@media screen and (max-width: 480px) 
+{
+	body {
+		margin-top: 40px;
+	}
+
+	body > header, body > section, body > footer {
+		width: 400px;
+		margin: 0 auto;
+	}
+
+	body > header {
+		margin-bottom: 1.25em;
+	}
+
+	h1 {
+		font-size: 2.0em;
+	}
+
+	book {
+		width: 180px;
+	}
+}
+
+@media screen and (max-width: 320px) 
+{
+	body {
+		margin-top: 20px;
+	}
+
+	body > header, body > section, body > footer {
+		width: 280px;
+		margin: 0 auto;
+	}
+
+	body > header {
+		margin-bottom: 1.25em;
+	}
+
+	h1 {
+		font-size: 1.5em;
+	}
+
+	book {
+		width: 150px;
+	}
+}
