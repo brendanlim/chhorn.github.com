@@ -126,6 +126,7 @@ book > p > a {
 	}
 
 	book {
+		margin-left: 20px;
 		width: 150px;
 	}
 }
