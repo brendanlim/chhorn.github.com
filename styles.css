@@ -92,7 +92,31 @@ footer {
 	RESPONSIVE STYLING 
  */
 
-@media screen and (max-width: 480px) 
+@media screen and (max-width: 640px) 
+{
+	body {
+		margin-top: 30px;
+	}
+
+	body > header, body > section, body > footer {
+		width: 520px;
+		margin: 0 auto;
+	}
+
+	body > header {
+		margin-bottom: 1.25em;
+	}
+
+	h1 {
+		font-size: 2.25em;
+	}
+
+	book {
+		width: 248px;
+	}
+}
+
+@media screen and (max-width: 500px) 
 {
 	body {
 		margin-top: 30px;
