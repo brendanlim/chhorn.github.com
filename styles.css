@@ -78,6 +78,16 @@ book > p > a {
 	font-weight: 400;
 }
 
+div.clearfix {
+	clear: both;
+}
+
+footer {
+	color: #A9A9A9;
+	font-size: 0.75em;
+	text-align: center;
+	padding-bottom: 20px;
+}
 /* 
 	RESPONSIVE STYLING 
  */
