@@ -85,7 +85,7 @@ book > p > a {
 @media screen and (max-width: 480px) 
 {
 	body {
-		margin-top: 00px;
+		margin-top: 30px;
 	}
 
 	body > header, body > section, body > footer {
